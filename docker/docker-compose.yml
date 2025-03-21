@@ -1,0 +1,80 @@
+version: '3'
+services:
+  db:
+    image: postgres:15
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_USER=ubuntu
+      - PGDATA=/var/lib/postgresql/data/pgdata
+    volumes:
+      - odoo-db-data:/var/lib/postgresql/data/pgdata
+    networks:
+      - odoo-network
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ubuntu -d postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  odoo:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ../odoo.conf:/opt/odoo/odoo18_v1/odoo.conf:ro
+      - odoo-data:/var/lib/odoo
+      - odoo-logs:/var/log/odoo
+      - ../addons:/mnt/extra-addons
+    environment:
+      - HOST=db
+      - PORT=5432
+      - USER=ubuntu
+      - PASSWORD=admin
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_USER=ubuntu
+      - DB_PASSWORD=admin
+      - DB_SSLMODE=disable
+    command: [
+      "/opt/odoo/odoo18_v1/odoo-bin",
+      "--config=/opt/odoo/odoo18_v1/odoo.conf",
+      "--db_host=db",
+      "--db_port=5432",
+      "--db_user=ubuntu",
+      "--db_password=admin"
+    ]
+    ports:
+      - "8069:8069"
+      - "8072:8072"
+    networks:
+      - odoo-network
+    restart: unless-stopped
+
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/odoo.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./logs/nginx:/var/log/nginx
+    depends_on:
+      - odoo
+    networks:
+      - odoo-network
+    restart: unless-stopped
+
+networks:
+  odoo-network:
+    driver: bridge
+
+volumes:
+  odoo-db-data:
+  odoo-data:
+  odoo-logs:
