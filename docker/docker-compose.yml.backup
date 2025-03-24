@@ -28,8 +28,7 @@ services:
       db:
         condition: service_healthy
     volumes:
-      - odoo-config:/opt/odoo/odoo18_v1/config
-      - ../odoo.conf:/opt/odoo/odoo18_v1/config/odoo.conf
+      - ../odoo.conf:/opt/odoo/odoo18_v1/odoo.conf:ro
       - odoo-data:/var/lib/odoo
       - odoo-logs:/var/log/odoo
       - ../addons:/mnt/extra-addons
@@ -45,7 +44,7 @@ services:
       - DB_SSLMODE=disable
     command: [
       "/opt/odoo/odoo18_v1/odoo-bin",
-      "--config=/opt/odoo/odoo18_v1/config/odoo.conf",
+      "--config=/opt/odoo/odoo18_v1/odoo.conf",
       "--db_host=db",
       "--db_port=5432",
       "--db_user=ubuntu",
@@ -79,4 +78,3 @@ volumes:
   odoo-db-data:
   odoo-data:
   odoo-logs:
-  odoo-config:

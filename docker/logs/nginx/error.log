@@ -335,3 +335,427 @@
 2025/03/21 11:59:57 [notice] 1#1: signal 17 (SIGCHLD) received from 23
 2025/03/21 11:59:57 [notice] 1#1: worker process 23 exited with code 0
 2025/03/21 11:59:57 [notice] 1#1: exit
+2025/03/24 05:17:41 [notice] 1#1: using the "epoll" event method
+2025/03/24 05:17:41 [notice] 1#1: nginx/1.27.4
+2025/03/24 05:17:41 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2025/03/24 05:17:41 [notice] 1#1: OS: Linux 5.15.167.4-microsoft-standard-WSL2
+2025/03/24 05:17:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/03/24 05:17:41 [notice] 1#1: start worker processes
+2025/03/24 05:17:41 [notice] 1#1: start worker process 21
+2025/03/24 05:17:41 [notice] 1#1: start worker process 22
+2025/03/24 05:17:41 [notice] 1#1: start worker process 23
+2025/03/24 05:17:41 [notice] 1#1: start worker process 24
+2025/03/24 05:27:12 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/03/24 05:27:12 [notice] 21#21: gracefully shutting down
+2025/03/24 05:27:12 [notice] 22#22: gracefully shutting down
+2025/03/24 05:27:12 [notice] 23#23: gracefully shutting down
+2025/03/24 05:27:12 [notice] 21#21: exiting
+2025/03/24 05:27:12 [notice] 22#22: exiting
+2025/03/24 05:27:12 [notice] 23#23: exiting
+2025/03/24 05:27:12 [notice] 21#21: exit
+2025/03/24 05:27:12 [notice] 22#22: exit
+2025/03/24 05:27:12 [notice] 23#23: exit
+2025/03/24 05:27:12 [notice] 24#24: gracefully shutting down
+2025/03/24 05:27:12 [notice] 24#24: exiting
+2025/03/24 05:27:12 [notice] 24#24: exit
+2025/03/24 05:27:12 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/03/24 05:27:12 [notice] 1#1: worker process 22 exited with code 0
+2025/03/24 05:27:12 [notice] 1#1: worker process 23 exited with code 0
+2025/03/24 05:27:12 [notice] 1#1: worker process 24 exited with code 0
+2025/03/24 05:27:12 [notice] 1#1: signal 29 (SIGIO) received
+2025/03/24 05:27:12 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/03/24 05:27:12 [notice] 1#1: worker process 21 exited with code 0
+2025/03/24 05:27:12 [notice] 1#1: exit
+2025/03/24 05:52:59 [notice] 1#1: using the "epoll" event method
+2025/03/24 05:52:59 [notice] 1#1: nginx/1.27.4
+2025/03/24 05:52:59 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2025/03/24 05:52:59 [notice] 1#1: OS: Linux 5.15.167.4-microsoft-standard-WSL2
+2025/03/24 05:52:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/03/24 05:52:59 [notice] 1#1: start worker processes
+2025/03/24 05:52:59 [notice] 1#1: start worker process 22
+2025/03/24 05:52:59 [notice] 1#1: start worker process 23
+2025/03/24 05:52:59 [notice] 1#1: start worker process 24
+2025/03/24 05:52:59 [notice] 1#1: start worker process 25
+2025/03/24 08:24:12 [notice] 1#1: using the "epoll" event method
+2025/03/24 08:24:12 [notice] 1#1: nginx/1.27.4
+2025/03/24 08:24:12 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2025/03/24 08:24:12 [notice] 1#1: OS: Linux 5.15.167.4-microsoft-standard-WSL2
+2025/03/24 08:24:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/03/24 08:24:12 [notice] 1#1: start worker processes
+2025/03/24 08:24:12 [notice] 1#1: start worker process 21
+2025/03/24 08:24:12 [notice] 1#1: start worker process 22
+2025/03/24 08:24:12 [notice] 1#1: start worker process 23
+2025/03/24 08:24:12 [notice] 1#1: start worker process 24
+2025/03/24 08:35:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/03/24 08:35:58 [notice] 21#21: gracefully shutting down
+2025/03/24 08:35:58 [notice] 22#22: gracefully shutting down
+2025/03/24 08:35:58 [notice] 24#24: gracefully shutting down
+2025/03/24 08:35:58 [notice] 22#22: exiting
+2025/03/24 08:35:58 [notice] 21#21: exiting
+2025/03/24 08:35:58 [notice] 24#24: exiting
+2025/03/24 08:35:58 [notice] 22#22: exit
+2025/03/24 08:35:58 [notice] 21#21: exit
+2025/03/24 08:35:58 [notice] 24#24: exit
+2025/03/24 08:35:58 [notice] 23#23: gracefully shutting down
+2025/03/24 08:35:58 [notice] 23#23: exiting
+2025/03/24 08:35:58 [notice] 23#23: exit
+2025/03/24 08:35:58 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/03/24 08:35:58 [notice] 1#1: worker process 21 exited with code 0
+2025/03/24 08:35:58 [notice] 1#1: worker process 24 exited with code 0
+2025/03/24 08:35:58 [notice] 1#1: signal 29 (SIGIO) received
+2025/03/24 08:35:58 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/03/24 08:35:58 [notice] 1#1: worker process 22 exited with code 0
+2025/03/24 08:35:58 [notice] 1#1: worker process 23 exited with code 0
+2025/03/24 08:35:58 [notice] 1#1: exit
+2025/03/24 08:46:23 [notice] 1#1: using the "epoll" event method
+2025/03/24 08:46:23 [notice] 1#1: nginx/1.27.4
+2025/03/24 08:46:23 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2025/03/24 08:46:23 [notice] 1#1: OS: Linux 5.15.167.4-microsoft-standard-WSL2
+2025/03/24 08:46:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/03/24 08:46:23 [notice] 1#1: start worker processes
+2025/03/24 08:46:23 [notice] 1#1: start worker process 21
+2025/03/24 08:46:23 [notice] 1#1: start worker process 22
+2025/03/24 08:46:23 [notice] 1#1: start worker process 23
+2025/03/24 08:46:23 [notice] 1#1: start worker process 24
+2025/03/24 09:04:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/03/24 09:04:34 [notice] 21#21: gracefully shutting down
+2025/03/24 09:04:34 [notice] 23#23: gracefully shutting down
+2025/03/24 09:04:34 [notice] 24#24: gracefully shutting down
+2025/03/24 09:04:34 [notice] 21#21: exiting
+2025/03/24 09:04:34 [notice] 23#23: exiting
+2025/03/24 09:04:34 [notice] 24#24: exiting
+2025/03/24 09:04:34 [notice] 23#23: exit
+2025/03/24 09:04:34 [notice] 21#21: exit
+2025/03/24 09:04:34 [notice] 24#24: exit
+2025/03/24 09:04:34 [notice] 22#22: gracefully shutting down
+2025/03/24 09:04:34 [notice] 22#22: exiting
+2025/03/24 09:04:34 [notice] 22#22: exit
+2025/03/24 09:04:34 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/03/24 09:04:34 [notice] 1#1: worker process 22 exited with code 0
+2025/03/24 09:04:34 [notice] 1#1: signal 29 (SIGIO) received
+2025/03/24 09:04:34 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/03/24 09:04:34 [notice] 1#1: worker process 23 exited with code 0
+2025/03/24 09:04:34 [notice] 1#1: signal 29 (SIGIO) received
+2025/03/24 09:04:34 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/03/24 09:04:34 [notice] 1#1: worker process 21 exited with code 0
+2025/03/24 09:04:34 [notice] 1#1: worker process 24 exited with code 0
+2025/03/24 09:04:34 [notice] 1#1: exit
+2025/03/24 09:05:08 [notice] 1#1: using the "epoll" event method
+2025/03/24 09:05:08 [notice] 1#1: nginx/1.27.4
+2025/03/24 09:05:08 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2025/03/24 09:05:08 [notice] 1#1: OS: Linux 5.15.167.4-microsoft-standard-WSL2
+2025/03/24 09:05:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/03/24 09:05:08 [notice] 1#1: start worker processes
+2025/03/24 09:05:08 [notice] 1#1: start worker process 21
+2025/03/24 09:05:08 [notice] 1#1: start worker process 22
+2025/03/24 09:05:08 [notice] 1#1: start worker process 23
+2025/03/24 09:05:08 [notice] 1#1: start worker process 24
+2025/03/24 10:03:12 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/03/24 10:03:12 [notice] 21#21: gracefully shutting down
+2025/03/24 10:03:12 [notice] 23#23: gracefully shutting down
+2025/03/24 10:03:12 [notice] 21#21: exiting
+2025/03/24 10:03:12 [notice] 24#24: gracefully shutting down
+2025/03/24 10:03:12 [notice] 24#24: exiting
+2025/03/24 10:03:12 [notice] 22#22: gracefully shutting down
+2025/03/24 10:03:12 [notice] 22#22: exiting
+2025/03/24 10:03:12 [notice] 24#24: exit
+2025/03/24 10:03:12 [notice] 22#22: exit
+2025/03/24 10:03:12 [notice] 21#21: exit
+2025/03/24 10:03:12 [notice] 23#23: exiting
+2025/03/24 10:03:12 [notice] 23#23: exit
+2025/03/24 10:03:13 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/03/24 10:03:13 [notice] 1#1: worker process 21 exited with code 0
+2025/03/24 10:03:13 [notice] 1#1: signal 29 (SIGIO) received
+2025/03/24 10:03:13 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/03/24 10:03:13 [notice] 1#1: worker process 22 exited with code 0
+2025/03/24 10:03:13 [notice] 1#1: worker process 23 exited with code 0
+2025/03/24 10:03:13 [notice] 1#1: signal 29 (SIGIO) received
+2025/03/24 10:03:13 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/03/24 10:03:13 [notice] 1#1: worker process 24 exited with code 0
+2025/03/24 10:03:13 [notice] 1#1: exit
+2025/03/24 10:03:38 [notice] 1#1: using the "epoll" event method
+2025/03/24 10:03:38 [notice] 1#1: nginx/1.27.4
+2025/03/24 10:03:38 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2025/03/24 10:03:38 [notice] 1#1: OS: Linux 5.15.167.4-microsoft-standard-WSL2
+2025/03/24 10:03:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/03/24 10:03:38 [notice] 1#1: start worker processes
+2025/03/24 10:03:38 [notice] 1#1: start worker process 21
+2025/03/24 10:03:38 [notice] 1#1: start worker process 22
+2025/03/24 10:03:38 [notice] 1#1: start worker process 23
+2025/03/24 10:03:38 [notice] 1#1: start worker process 24
+2025/03/24 10:03:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/03/24 10:03:49 [notice] 22#22: gracefully shutting down
+2025/03/24 10:03:49 [notice] 21#21: gracefully shutting down
+2025/03/24 10:03:49 [notice] 22#22: exiting
+2025/03/24 10:03:49 [notice] 21#21: exiting
+2025/03/24 10:03:49 [notice] 21#21: exit
+2025/03/24 10:03:49 [notice] 22#22: exit
+2025/03/24 10:03:49 [notice] 23#23: gracefully shutting down
+2025/03/24 10:03:49 [notice] 23#23: exiting
+2025/03/24 10:03:49 [notice] 23#23: exit
+2025/03/24 10:03:49 [notice] 24#24: gracefully shutting down
+2025/03/24 10:03:49 [notice] 24#24: exiting
+2025/03/24 10:03:49 [notice] 24#24: exit
+2025/03/24 10:03:49 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/03/24 10:03:49 [notice] 1#1: worker process 21 exited with code 0
+2025/03/24 10:03:49 [notice] 1#1: worker process 22 exited with code 0
+2025/03/24 10:03:49 [notice] 1#1: worker process 23 exited with code 0
+2025/03/24 10:03:49 [notice] 1#1: worker process 24 exited with code 0
+2025/03/24 10:03:49 [notice] 1#1: exit
+2025/03/24 11:00:56 [notice] 1#1: using the "epoll" event method
+2025/03/24 11:00:56 [notice] 1#1: nginx/1.27.4
+2025/03/24 11:00:56 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2025/03/24 11:00:56 [notice] 1#1: OS: Linux 5.15.167.4-microsoft-standard-WSL2
+2025/03/24 11:00:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/03/24 11:00:56 [notice] 1#1: start worker processes
+2025/03/24 11:00:56 [notice] 1#1: start worker process 21
+2025/03/24 11:00:56 [notice] 1#1: start worker process 22
+2025/03/24 11:00:56 [notice] 1#1: start worker process 23
+2025/03/24 11:00:56 [notice] 1#1: start worker process 24
+2025/03/24 11:01:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/03/24 11:01:34 [notice] 21#21: gracefully shutting down
+2025/03/24 11:01:34 [notice] 22#22: gracefully shutting down
+2025/03/24 11:01:34 [notice] 23#23: gracefully shutting down
+2025/03/24 11:01:34 [notice] 21#21: exiting
+2025/03/24 11:01:34 [notice] 22#22: exiting
+2025/03/24 11:01:34 [notice] 23#23: exiting
+2025/03/24 11:01:34 [notice] 21#21: exit
+2025/03/24 11:01:34 [notice] 22#22: exit
+2025/03/24 11:01:34 [notice] 23#23: exit
+2025/03/24 11:01:34 [notice] 24#24: gracefully shutting down
+2025/03/24 11:01:34 [notice] 24#24: exiting
+2025/03/24 11:01:34 [notice] 24#24: exit
+2025/03/24 11:01:35 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/03/24 11:01:35 [notice] 1#1: worker process 22 exited with code 0
+2025/03/24 11:01:35 [notice] 1#1: worker process 24 exited with code 0
+2025/03/24 11:01:35 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/03/24 11:01:35 [notice] 1#1: worker process 23 exited with code 0
+2025/03/24 11:01:35 [notice] 1#1: signal 29 (SIGIO) received
+2025/03/24 11:01:35 [notice] 1#1: signal 29 (SIGIO) received
+2025/03/24 11:01:35 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/03/24 11:01:35 [notice] 1#1: worker process 21 exited with code 0
+2025/03/24 11:01:35 [notice] 1#1: exit
+2025/03/24 11:01:59 [notice] 1#1: using the "epoll" event method
+2025/03/24 11:01:59 [notice] 1#1: nginx/1.27.4
+2025/03/24 11:01:59 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2025/03/24 11:01:59 [notice] 1#1: OS: Linux 5.15.167.4-microsoft-standard-WSL2
+2025/03/24 11:01:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/03/24 11:01:59 [notice] 1#1: start worker processes
+2025/03/24 11:01:59 [notice] 1#1: start worker process 21
+2025/03/24 11:01:59 [notice] 1#1: start worker process 22
+2025/03/24 11:01:59 [notice] 1#1: start worker process 23
+2025/03/24 11:01:59 [notice] 1#1: start worker process 24
+2025/03/24 11:03:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/03/24 11:03:38 [notice] 21#21: gracefully shutting down
+2025/03/24 11:03:38 [notice] 22#22: gracefully shutting down
+2025/03/24 11:03:38 [notice] 21#21: exiting
+2025/03/24 11:03:38 [notice] 22#22: exiting
+2025/03/24 11:03:38 [notice] 21#21: exit
+2025/03/24 11:03:38 [notice] 22#22: exit
+2025/03/24 11:03:38 [notice] 24#24: gracefully shutting down
+2025/03/24 11:03:38 [notice] 24#24: exiting
+2025/03/24 11:03:38 [notice] 24#24: exit
+2025/03/24 11:03:38 [notice] 23#23: gracefully shutting down
+2025/03/24 11:03:38 [notice] 23#23: exiting
+2025/03/24 11:03:38 [notice] 23#23: exit
+2025/03/24 11:03:38 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/03/24 11:03:38 [notice] 1#1: worker process 21 exited with code 0
+2025/03/24 11:03:38 [notice] 1#1: worker process 22 exited with code 0
+2025/03/24 11:03:38 [notice] 1#1: worker process 23 exited with code 0
+2025/03/24 11:03:38 [notice] 1#1: worker process 24 exited with code 0
+2025/03/24 11:03:38 [notice] 1#1: exit
+2025/03/24 11:03:53 [notice] 1#1: using the "epoll" event method
+2025/03/24 11:03:53 [notice] 1#1: nginx/1.27.4
+2025/03/24 11:03:53 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2025/03/24 11:03:53 [notice] 1#1: OS: Linux 5.15.167.4-microsoft-standard-WSL2
+2025/03/24 11:03:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/03/24 11:03:53 [notice] 1#1: start worker processes
+2025/03/24 11:03:53 [notice] 1#1: start worker process 21
+2025/03/24 11:03:53 [notice] 1#1: start worker process 22
+2025/03/24 11:03:53 [notice] 1#1: start worker process 23
+2025/03/24 11:03:53 [notice] 1#1: start worker process 24
+2025/03/24 11:04:56 [warn] 21#21: *1 upstream sent duplicate header line: "Date: Mon, 24 Mar 2025 11:04:56 GMT", previous value: "Date: Mon, 24 Mar 2025 11:04:56 GMT", ignored while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /web/assets/df55a90/web.assets_web.min.css HTTP/1.1", upstream: "http://172.18.0.3:8069/web/assets/df55a90/web.assets_web.min.css", host: "localhost", referrer: "http://localhost/odoo"
+2025/03/24 11:04:56 [warn] 23#23: *5 upstream sent duplicate header line: "Date: Mon, 24 Mar 2025 11:04:56 GMT", previous value: "Date: Mon, 24 Mar 2025 11:04:56 GMT", ignored while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /web/assets/afcfeb8/web.assets_web.min.js HTTP/1.1", upstream: "http://172.18.0.3:8069/web/assets/afcfeb8/web.assets_web.min.js", host: "localhost", referrer: "http://localhost/odoo"
+2025/03/24 11:04:56 [warn] 21#21: *1 upstream sent duplicate header line: "Date: Mon, 24 Mar 2025 11:04:56 GMT", previous value: "Date: Mon, 24 Mar 2025 11:04:56 GMT", ignored while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /web/assets/06a3cb3/web.assets_web_print.min.css HTTP/1.1", upstream: "http://172.18.0.3:8069/web/assets/06a3cb3/web.assets_web_print.min.css", host: "localhost", referrer: "http://localhost/odoo"
+2025/03/24 11:04:57 [warn] 24#24: *8 upstream sent duplicate header line: "Date: Mon, 24 Mar 2025 11:04:57 GMT", previous value: "Date: Mon, 24 Mar 2025 11:04:57 GMT", ignored while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1", upstream: "http://172.18.0.3:8069/bus/websocket_worker_bundle?v=18.0-3", host: "localhost", referrer: "http://localhost/odoo"
+2025/03/24 11:04:58 [warn] 21#21: *1 upstream sent duplicate header line: "Date: Mon, 24 Mar 2025 11:04:58 GMT", previous value: "Date: Mon, 24 Mar 2025 11:04:58 GMT", ignored while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1", upstream: "http://172.18.0.3:8069/web/image?model=res.users&field=avatar_128&id=2", host: "localhost", referrer: "http://localhost/odoo"
+2025/03/24 11:04:58 [warn] 24#24: *7 upstream sent duplicate header line: "Date: Mon, 24 Mar 2025 11:04:58 GMT", previous value: "Date: Mon, 24 Mar 2025 11:04:58 GMT", ignored while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /web/image/res.partner/3/avatar_128?unique=1742788520000 HTTP/1.1", upstream: "http://172.18.0.3:8069/web/image/res.partner/3/avatar_128?unique=1742788520000", host: "localhost", referrer: "http://localhost/odoo"
+2025/03/24 11:04:58 [warn] 24#24: *8 upstream sent duplicate header line: "Date: Mon, 24 Mar 2025 11:04:58 GMT", previous value: "Date: Mon, 24 Mar 2025 11:04:58 GMT", ignored while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /web/static/img/odoo-icon-192x192.png HTTP/1.1", upstream: "http://172.18.0.3:8069/web/static/img/odoo-icon-192x192.png", host: "localhost", referrer: "http://localhost/odoo"
+2025/03/24 11:04:59 [warn] 24#24: *7 upstream sent duplicate header line: "Date: Mon, 24 Mar 2025 11:04:59 GMT", previous value: "Date: Mon, 24 Mar 2025 11:04:59 GMT", ignored while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /hrms_dashboard/static/src/css/dashboard.css HTTP/1.1", upstream: "http://172.18.0.3:8069/hrms_dashboard/static/src/css/dashboard.css", host: "localhost", referrer: "http://localhost/odoo"
+2025/03/24 11:05:02 [warn] 23#23: *5 upstream sent duplicate header line: "Date: Mon, 24 Mar 2025 11:05:02 GMT", previous value: "Date: Mon, 24 Mar 2025 11:05:02 GMT", ignored while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /web/assets/b7df47e/web.assets_frontend_minimal.min.js HTTP/1.1", upstream: "http://172.18.0.3:8069/web/assets/b7df47e/web.assets_frontend_minimal.min.js", host: "localhost", referrer: "http://localhost/web/login?redirect=%2Fodoo%3F"
+2025/03/24 11:05:02 [warn] 24#24: *7 upstream sent duplicate header line: "Date: Mon, 24 Mar 2025 11:05:02 GMT", previous value: "Date: Mon, 24 Mar 2025 11:05:02 GMT", ignored while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /web/binary/company_logo HTTP/1.1", upstream: "http://172.18.0.3:8069/web/binary/company_logo", host: "localhost", referrer: "http://localhost/web/login?redirect=%2Fodoo%3F"
+2025/03/24 11:05:05 [warn] 23#23: *34 upstream sent duplicate header line: "Date: Mon, 24 Mar 2025 11:05:05 GMT", previous value: "Date: Mon, 24 Mar 2025 11:05:05 GMT", ignored while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /web/assets/2752fd5/web.assets_frontend.min.css HTTP/1.1", upstream: "http://172.18.0.3:8069/web/assets/2752fd5/web.assets_frontend.min.css", host: "localhost", referrer: "http://localhost/web/login?redirect=%2Fodoo%3F"
+2025/03/24 11:05:06 [warn] 23#23: *34 upstream sent duplicate header line: "Date: Mon, 24 Mar 2025 11:05:06 GMT", previous value: "Date: Mon, 24 Mar 2025 11:05:06 GMT", ignored while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /web/assets/0d8af34/web.assets_frontend_lazy.min.js HTTP/1.1", upstream: "http://172.18.0.3:8069/web/assets/0d8af34/web.assets_frontend_lazy.min.js", host: "localhost", referrer: "http://localhost/web/login?redirect=%2Fodoo%3F"
+2025/03/24 11:05:26 [error] 21#21: *51 client intended to send too large body: 8870880 bytes, client: 172.18.0.1, server: localhost, request: "POST /web/database/restore HTTP/1.1", host: "localhost", referrer: "http://localhost/web/database/manager"
+2025/03/24 11:08:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/03/24 11:08:55 [notice] 21#21: gracefully shutting down
+2025/03/24 11:08:55 [notice] 22#22: gracefully shutting down
+2025/03/24 11:08:55 [notice] 21#21: exiting
+2025/03/24 11:08:55 [notice] 24#24: gracefully shutting down
+2025/03/24 11:08:55 [notice] 22#22: exiting
+2025/03/24 11:08:55 [notice] 24#24: exiting
+2025/03/24 11:08:55 [notice] 21#21: exit
+2025/03/24 11:08:55 [notice] 22#22: exit
+2025/03/24 11:08:55 [notice] 24#24: exit
+2025/03/24 11:08:55 [notice] 23#23: gracefully shutting down
+2025/03/24 11:08:55 [notice] 23#23: exiting
+2025/03/24 11:08:55 [notice] 23#23: exit
+2025/03/24 11:08:56 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/03/24 11:08:56 [notice] 1#1: worker process 22 exited with code 0
+2025/03/24 11:08:56 [notice] 1#1: worker process 23 exited with code 0
+2025/03/24 11:08:56 [notice] 1#1: signal 29 (SIGIO) received
+2025/03/24 11:08:56 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/03/24 11:08:56 [notice] 1#1: worker process 21 exited with code 0
+2025/03/24 11:08:56 [notice] 1#1: signal 29 (SIGIO) received
+2025/03/24 11:08:56 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/03/24 11:08:56 [notice] 1#1: worker process 24 exited with code 0
+2025/03/24 11:08:56 [notice] 1#1: exit
+2025/03/24 11:09:12 [notice] 1#1: using the "epoll" event method
+2025/03/24 11:09:12 [notice] 1#1: nginx/1.27.4
+2025/03/24 11:09:12 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2025/03/24 11:09:12 [notice] 1#1: OS: Linux 5.15.167.4-microsoft-standard-WSL2
+2025/03/24 11:09:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/03/24 11:09:12 [notice] 1#1: start worker processes
+2025/03/24 11:09:12 [notice] 1#1: start worker process 22
+2025/03/24 11:09:12 [notice] 1#1: start worker process 23
+2025/03/24 11:09:12 [notice] 1#1: start worker process 24
+2025/03/24 11:09:12 [notice] 1#1: start worker process 25
+2025/03/24 11:12:09 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/03/24 11:12:09 [notice] 23#23: gracefully shutting down
+2025/03/24 11:12:09 [notice] 22#22: gracefully shutting down
+2025/03/24 11:12:09 [notice] 25#25: gracefully shutting down
+2025/03/24 11:12:09 [notice] 23#23: exiting
+2025/03/24 11:12:09 [notice] 22#22: exiting
+2025/03/24 11:12:09 [notice] 25#25: exiting
+2025/03/24 11:12:09 [notice] 23#23: exit
+2025/03/24 11:12:09 [notice] 22#22: exit
+2025/03/24 11:12:09 [notice] 25#25: exit
+2025/03/24 11:12:09 [notice] 24#24: gracefully shutting down
+2025/03/24 11:12:09 [notice] 24#24: exiting
+2025/03/24 11:12:09 [notice] 24#24: exit
+2025/03/24 11:12:09 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/03/24 11:12:09 [notice] 1#1: worker process 22 exited with code 0
+2025/03/24 11:12:09 [notice] 1#1: worker process 24 exited with code 0
+2025/03/24 11:12:09 [notice] 1#1: signal 29 (SIGIO) received
+2025/03/24 11:12:09 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/03/24 11:12:09 [notice] 1#1: worker process 23 exited with code 0
+2025/03/24 11:12:09 [notice] 1#1: worker process 25 exited with code 0
+2025/03/24 11:12:09 [notice] 1#1: exit
+2025/03/24 11:12:26 [notice] 1#1: using the "epoll" event method
+2025/03/24 11:12:26 [notice] 1#1: nginx/1.27.4
+2025/03/24 11:12:26 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2025/03/24 11:12:26 [notice] 1#1: OS: Linux 5.15.167.4-microsoft-standard-WSL2
+2025/03/24 11:12:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/03/24 11:12:26 [notice] 1#1: start worker processes
+2025/03/24 11:12:26 [notice] 1#1: start worker process 20
+2025/03/24 11:12:26 [notice] 1#1: start worker process 21
+2025/03/24 11:12:26 [notice] 1#1: start worker process 22
+2025/03/24 11:12:26 [notice] 1#1: start worker process 23
+2025/03/24 11:15:26 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/03/24 11:15:26 [notice] 20#20: gracefully shutting down
+2025/03/24 11:15:26 [notice] 20#20: exiting
+2025/03/24 11:15:26 [notice] 23#23: gracefully shutting down
+2025/03/24 11:15:26 [notice] 23#23: exiting
+2025/03/24 11:15:26 [notice] 20#20: exit
+2025/03/24 11:15:26 [notice] 23#23: exit
+2025/03/24 11:15:26 [notice] 21#21: gracefully shutting down
+2025/03/24 11:15:26 [notice] 21#21: exiting
+2025/03/24 11:15:26 [notice] 21#21: exit
+2025/03/24 11:15:26 [notice] 22#22: gracefully shutting down
+2025/03/24 11:15:26 [notice] 22#22: exiting
+2025/03/24 11:15:26 [notice] 22#22: exit
+2025/03/24 11:15:26 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/03/24 11:15:26 [notice] 1#1: worker process 20 exited with code 0
+2025/03/24 11:15:26 [notice] 1#1: worker process 23 exited with code 0
+2025/03/24 11:15:26 [notice] 1#1: signal 29 (SIGIO) received
+2025/03/24 11:15:26 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/03/24 11:15:26 [notice] 1#1: worker process 21 exited with code 0
+2025/03/24 11:15:26 [notice] 1#1: signal 29 (SIGIO) received
+2025/03/24 11:15:26 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/03/24 11:15:26 [notice] 1#1: worker process 22 exited with code 0
+2025/03/24 11:15:26 [notice] 1#1: exit
+2025/03/24 11:15:42 [notice] 1#1: using the "epoll" event method
+2025/03/24 11:15:42 [notice] 1#1: nginx/1.27.4
+2025/03/24 11:15:42 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2025/03/24 11:15:42 [notice] 1#1: OS: Linux 5.15.167.4-microsoft-standard-WSL2
+2025/03/24 11:15:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/03/24 11:15:42 [notice] 1#1: start worker processes
+2025/03/24 11:15:42 [notice] 1#1: start worker process 21
+2025/03/24 11:15:42 [notice] 1#1: start worker process 22
+2025/03/24 11:15:42 [notice] 1#1: start worker process 23
+2025/03/24 11:15:42 [notice] 1#1: start worker process 24
+2025/03/24 11:22:08 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/03/24 11:22:08 [notice] 21#21: gracefully shutting down
+2025/03/24 11:22:08 [notice] 23#23: gracefully shutting down
+2025/03/24 11:22:08 [notice] 21#21: exiting
+2025/03/24 11:22:08 [notice] 23#23: exiting
+2025/03/24 11:22:08 [notice] 21#21: exit
+2025/03/24 11:22:08 [notice] 23#23: exit
+2025/03/24 11:22:08 [notice] 22#22: gracefully shutting down
+2025/03/24 11:22:08 [notice] 22#22: exiting
+2025/03/24 11:22:08 [notice] 22#22: exit
+2025/03/24 11:22:08 [notice] 24#24: gracefully shutting down
+2025/03/24 11:22:08 [notice] 24#24: exiting
+2025/03/24 11:22:08 [notice] 24#24: exit
+2025/03/24 11:22:08 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/03/24 11:22:08 [notice] 1#1: worker process 21 exited with code 0
+2025/03/24 11:22:08 [notice] 1#1: worker process 22 exited with code 0
+2025/03/24 11:22:08 [notice] 1#1: signal 29 (SIGIO) received
+2025/03/24 11:22:08 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/03/24 11:22:08 [notice] 1#1: worker process 23 exited with code 0
+2025/03/24 11:22:08 [notice] 1#1: worker process 24 exited with code 0
+2025/03/24 11:22:08 [notice] 1#1: exit
+2025/03/24 11:22:53 [notice] 1#1: using the "epoll" event method
+2025/03/24 11:22:53 [notice] 1#1: nginx/1.27.4
+2025/03/24 11:22:53 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2025/03/24 11:22:53 [notice] 1#1: OS: Linux 5.15.167.4-microsoft-standard-WSL2
+2025/03/24 11:22:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/03/24 11:22:53 [notice] 1#1: start worker processes
+2025/03/24 11:22:53 [notice] 1#1: start worker process 22
+2025/03/24 11:22:53 [notice] 1#1: start worker process 23
+2025/03/24 11:22:53 [notice] 1#1: start worker process 24
+2025/03/24 11:22:53 [notice] 1#1: start worker process 25
+2025/03/24 11:23:58 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8069/", host: "localhost"
+2025/03/24 11:24:09 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/03/24 11:24:09 [notice] 22#22: gracefully shutting down
+2025/03/24 11:24:09 [notice] 25#25: gracefully shutting down
+2025/03/24 11:24:09 [notice] 22#22: exiting
+2025/03/24 11:24:09 [notice] 25#25: exiting
+2025/03/24 11:24:09 [notice] 22#22: exit
+2025/03/24 11:24:09 [notice] 25#25: exit
+2025/03/24 11:24:09 [notice] 23#23: gracefully shutting down
+2025/03/24 11:24:09 [notice] 23#23: exiting
+2025/03/24 11:24:09 [notice] 23#23: exit
+2025/03/24 11:24:09 [notice] 24#24: gracefully shutting down
+2025/03/24 11:24:09 [notice] 24#24: exiting
+2025/03/24 11:24:09 [notice] 24#24: exit
+2025/03/24 11:24:09 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/03/24 11:24:09 [notice] 1#1: worker process 24 exited with code 0
+2025/03/24 11:24:09 [notice] 1#1: worker process 25 exited with code 0
+2025/03/24 11:24:09 [notice] 1#1: signal 29 (SIGIO) received
+2025/03/24 11:24:09 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/03/24 11:24:09 [notice] 1#1: worker process 22 exited with code 0
+2025/03/24 11:24:09 [notice] 1#1: signal 29 (SIGIO) received
+2025/03/24 11:24:09 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/03/24 11:24:09 [notice] 1#1: worker process 23 exited with code 0
+2025/03/24 11:24:09 [notice] 1#1: exit
+2025/03/24 11:25:33 [notice] 1#1: using the "epoll" event method
+2025/03/24 11:25:33 [notice] 1#1: nginx/1.27.4
+2025/03/24 11:25:33 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2025/03/24 11:25:33 [notice] 1#1: OS: Linux 5.15.167.4-microsoft-standard-WSL2
+2025/03/24 11:25:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/03/24 11:25:33 [notice] 1#1: start worker processes
+2025/03/24 11:25:33 [notice] 1#1: start worker process 21
+2025/03/24 11:25:33 [notice] 1#1: start worker process 22
+2025/03/24 11:25:33 [notice] 1#1: start worker process 23
+2025/03/24 11:25:33 [notice] 1#1: start worker process 24
+2025/03/24 11:40:46 [notice] 1#1: using the "epoll" event method
+2025/03/24 11:40:46 [notice] 1#1: nginx/1.27.4
+2025/03/24 11:40:46 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2025/03/24 11:40:46 [notice] 1#1: OS: Linux 5.15.167.4-microsoft-standard-WSL2
+2025/03/24 11:40:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/03/24 11:40:46 [notice] 1#1: start worker processes
+2025/03/24 11:40:46 [notice] 1#1: start worker process 21
+2025/03/24 11:40:46 [notice] 1#1: start worker process 22
+2025/03/24 11:40:46 [notice] 1#1: start worker process 23
+2025/03/24 11:40:46 [notice] 1#1: start worker process 24
